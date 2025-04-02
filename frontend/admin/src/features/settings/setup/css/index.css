@@ -1,0 +1,15 @@
+.custom-text a {
+    color: blue;
+    text-decoration: underline;
+    font-weight: medium;
+}
+
+.custom-text a:hover {
+    color: darkblue;
+}
+
+.custom-text {
+    width: 100%;
+    font-size: 1.2rem;
+    font-weight: lighter;
+}

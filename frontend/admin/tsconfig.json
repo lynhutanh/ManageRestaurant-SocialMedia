@@ -1,0 +1,28 @@
+{
+    "compilerOptions": {
+      "target": "ESNext",
+      "module": "ESNext",
+      "moduleResolution": "Node",
+      "strict": true,
+      "jsx": "react-jsx",
+      "esModuleInterop": true,
+      "skipLibCheck": true,
+      "forceConsistentCasingInFileNames": true,
+      "baseUrl": "./",
+      "paths": {
+        "@/*": ["src/*"],
+        "@ckeditor/*": ["node_modules/@ckeditor/*"],
+        "@features/*": ["src/features/*"],
+        "@components/*": ["src/components/*"],
+        "@stores/*": ["src/stores/*"],
+        "@constants/*": ["src/constants/*"],
+        "@config/*": ["src/config/*"],
+        "@utils/*": ["src/utils/*"],
+        "@hooks/*": ["src/hooks/*"],
+        "@assets/*": ["src/assets/*"],
+        "@types/*": ["src/types/*"]
+      }
+    },
+    "include": ["src"],
+    "exclude": ["node_modules", "dist"]
+  }
